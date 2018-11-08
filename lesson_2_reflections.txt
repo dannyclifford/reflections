@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository it makes a project folder that allows you to hold your files and metadata about the changes that occur during the life of the project.
+
+You need to do it becuase in order to commit your project you need to initialize the thing that will do the committing.  It doesnt automatically commit becuase you need to customize a commit message.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area holds files to be committed to the repository and acts as a focusing and organizing layer between the repository and working directory. The goal is to make small commits rather than committing all the project files every time. It's also valuable for organizing your thinking and making one commit per logical change.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+The staging area is the only thing that will be changed in the commit. So if the working directory has many different 
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
