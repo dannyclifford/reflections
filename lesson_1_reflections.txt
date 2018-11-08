@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It automatically filters and isolates the changes, instead of having to go through the entire document.
+    If a typo or extraneous character was added it will find it, otherwise it will show the new code and what was taken out, highlighting the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I will be able to look back on my path to the solution in a more concrete and reflective way. I find patterns but also branch previous versions of projects more easily.
+    This will increase my speed of completion of the project but also my process in general.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I have more fine tuned control over the timing of my save. Whereas if the document saved automatically it could be more difficult to find the working version and there would be too many versions to save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Computer programs are more elaborate and generally have more files and interdependencies than a project you'd save on Google Docs.  This way, the whole progam/ system is saved rather than having to manage all the independencies yourself.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	These show the cronological ordering of my changes and highlights the changes made. As mentioned before in the second question, I will be able to visit previous versions more easily, with more context, and see my overall process better than simply saving the most recent version.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Worst case scenario, I can always revert to a previous version. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use Git on wordpress websites and my programs on my computer. I can also use it for marketing materials.
