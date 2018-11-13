@@ -8,3 +8,10 @@ Why might you want to always pull changes manually rather than having Git automa
 
 If Git was automatically updating my remote repository while I was working on an open source project with many other people working on it at the same time, then my code would constantly be changing while I'm working on it and it could break without changing anything.  Also, I may not want to push up changes if they are not finished, so while I may want to commit this branch while experiementing, it may not work and I don't want the github community to have to deal with it.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clone - Git command that copies a repository and creates a local one.
+
+Branches - a line of changes and commits on a repository.
+
+Fork - A clone of a repository that is on github and creates a repository on your github account. This new repository is not connected or branched from the previous one. No changes in your repository will be reflected in the original forked repository unless a push request is approved by the owner or a collaborator of the repository.  
