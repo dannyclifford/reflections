@@ -2,7 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository it makes a project folder that allows you to hold your files and metadata about the changes that occur during the life of the project.
 
-You need to do it becuase in order to commit your project you need to initialize the thing that will do the committing.  It doesnt automatically commit becuase you need to customize a commit message.
+You need to do it becuase in order to commit your project you need to initialize the thing that will do the committing.  It doesn't automatically commit becuase you need to customize a commit message.
 
 
 How is the staging area different from the working directory and the repository?
@@ -18,10 +18,18 @@ Using git diff with the staging area will allow you to check any changes between
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are useful for making a new experiemental feature or trying to make a new version of the app or project. Even when making different translations of language like the italian version of the website can be helpful.  Branches help by not only allowing for a new space to work and occasionally break things while maintaining a working main branch, but also keeps track of the changes in both branches to allow the code to sometimes automatically integrate into eachother. If it doesn't do it automatically, it will show you the conflicts in your code so it doesn't get deleted or cause bugs later on.  
+
 How do the diagrams help you visualize the branch structure?
+
+Diagrams help me visualize the branch structure by providing a simple representation of the updates that have happened since the branch was made.  It helps find certain changes in the code that will conflict and understand what will be changed.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches together is a new commit with two parents, each the head of the two branches that were just merged.  We represent it in the diagram with two arrows pointing to the parents because it shows that the updates prior to the new merge commit are not necessarily in sequential order and the diff functions from one commit to another in time sequence as represented by git log may return huge changes that can be confusing.  Instead you use git show commit_id in order to see the difference between that commmit's parent rather than the commit from the commit with the most recent timestamp.
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
