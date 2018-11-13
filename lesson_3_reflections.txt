@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 When asking others for help, collaborating in teams or in an open source community, or to help others with your repositories. 
 It also saves the document in the cloud so you don't rely on the integrity of your physical hard drive on your computer.
 In addition this lets you work on the project from any computer that can handle git and the software the projects runs on.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If Git was automatically updating my remote repository while I was working on an open source project with many other people working on it at the same time, then my code would constantly be changing while I'm working on it and it could break without changing anything.  Also, I may not want to push up changes if they are not finished, so while I may want to commit this branch while experiementing, it may not work and I don't want the github community to have to deal with it.
+
