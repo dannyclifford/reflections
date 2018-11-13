@@ -14,4 +14,9 @@ Clone - Git command that copies a repository and creates a local one.
 
 Branches - a line of changes and commits on a repository.
 
-Fork - A clone of a repository that is on github and creates a repository on your github account. This new repository is not connected or branched from the previous one. No changes in your repository will be reflected in the original forked repository unless a push request is approved by the owner or a collaborator of the repository.  
+Fork - A clone of a repository that is on github and creates a repository on your github account. This new repository is not connected or branched from the previous one. No changes in your repository will be reflected in the original forked repository unless a push request is approved by the owner or a collaborator of the repository. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having the last known state of the remote stored locally allows you (and git) to easily merge them when you push to github.  Also, it allows for fast forward merging to be possible.  Merging itself would not be possible if the last known position the repository, branch, or line of code was synced was unknown.
+
