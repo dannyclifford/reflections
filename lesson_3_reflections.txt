@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When asking others for help, collaborating in teams or in an open source community, or to help others with your repositories. 
+It also saves the document in the cloud so you don't rely on the integrity of your physical hard drive on your computer.
+In addition this lets you work on the project from any computer that can handle git and the software the projects runs on.
